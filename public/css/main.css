@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login_tab,.zhuce_tab{
+    display: none;
+}
+.login_tab.on,.zhuce_tab.on{
+    display: block;
+}
+
+.box{
+    width: 400px;
+    height: 200px;
+    border: 2px #ccc solid;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -150px;
+    margin-left: -250px;
+    padding:50px;
+}
+.login{
+    position: relative;
+    width:400px;
+    font-size: 16px;
+    line-height: 32px;
+    border-bottom: 1px #ccc solid;
+
+}
+.login span{
+    display: block;
+    width: 60px;
+    padding-left: 10px;
+    border-bottom: 1px orange solid;
+}
+.inputB{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.inputB button{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.zhuce{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.zhuce span{
+    color: red;
+    cursor: pointer;
+}
